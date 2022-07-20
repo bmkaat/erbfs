@@ -49,7 +49,7 @@ int main()
         gh[g21][g1][e21]=1;
         gh[g22][g1][e22]=1;
     }
-    for(int r1=0; r1<(2*r): r1++)
+    for(int r1=0; r1<(2*r); r1++)
     {
         int r21,r22,e21,e22;
         printf("first row? ");
