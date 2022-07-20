@@ -31,15 +31,40 @@ int main()
     int g,r;
     printf("how many green hints? ");
     scanf("%i", &g);
+    int gh[i][g][k];
     printf("how many red hints? ");
     scanf("%i", &r);
+    int rh[i][2*r][k];
     for(int g1=0; g1<g; g1++)
     {
-        int g2,e2;
-        printf("what row? ");
-        scanf("%i", &g2);
-        printf("what element? ");
-        scanf("%i", &e2);
+        int g21,g22,e21,e22;
+        printf("first row? ");
+        scanf("%i", &g21);
+        printf("element in first row? ");
+        scanf("%i", &e21);
+        printf("second row? ");
+        scanf("%i", &g22);
+        printf("element in second row? ");
+        scanf("%i", &e22);
+        gh[g21][g1][e21]=1;
+        gh[g22][g1][e22]=1;
+    }
+    for(int r1=0; r1<(2*r): r1++)
+    {
+        int r21,r22,e21,e22;
+        printf("first row? ");
+        scanf("%i", &r21);
+        printf("element in first row? ");
+        scanf("%i", &e21);
+        printf("second row? ");
+        scanf("%i", &r22);
+        printf("element in second row? ");
+        scanf("%i", &e22);
+        rh[r21][r1][e21]=1;
+        rh[r22][r1][e22]=-1;
+        r1++
+        rh[r21][r1][e21]=-1;
+        rh[r22][r1][e22]=1;
     }
 
     /*
