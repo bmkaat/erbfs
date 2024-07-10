@@ -12,7 +12,7 @@ you're most welcomed to try it yourself.
 
 to run this library yourself, you need to install it manually, here's the steps i followed:
 1. install the original library using "pip install python-constraint2"
-2. downlaod this library.
+2. downlaod and unzip this library.
 3. cut and paste the library in the same folder as the original library is installed in.
 
 feel free to suggest a better way for installation.
